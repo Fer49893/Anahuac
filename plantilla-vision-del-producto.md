@@ -1,27 +1,22 @@
 # Visión del producto
 
 > **Plantilla del curso · Ingeniería de Software I · SIS3407**
-> Este documento es el primer entregable del semestre y la base de todo lo que viene después.
-> Se entrega completo en la **semana 4** y se presenta ante el grupo.
->
-> **Cómo usarla:** copia este archivo a tu repositorio como `docs/vision-del-producto.md`, borra las instrucciones en gris de cada apartado y escribe tu contenido en su lugar. Conserva los títulos.
 
 ---
 
-**Autor:**
-**Fecha de la última versión:**
-**Repositorio:**
+**Autor: Jose Fernando Saucedo Balderas**
+**Fecha de la última versión: 15/08/2026**
+**Repositorio: Anáhuac**
 
 ---
 
 ## 1. Descripción del sistema
 
-*Instrucción: nombre del sistema y qué hace, en un párrafo que cualquier persona entienda sin ser del área. Si necesitas usar una palabra técnica para explicarlo, todavía no está listo.*
 
-**Nombre del sistema:**
+**Nombre del sistema: Hotel Innventario**
 
 **Descripción:**
-
+Un sistema para ayudar al hotel Agua Santa a llevar un mejor control de los productos y artículos que tiene disponibles. Permite saber qué bebidas y alimentos hay en los minibares de cada habitación, así como controlar otros artículos utilizados en el hotel, como toallas, cobijas, sábanas y almohadas. El sistema permite registrar cuándo un artículo es utilizado, retirado o repuesto, para conocer en todo momento qué hay disponible, qué se encuentra en cada habitación y qué artículos necesitan ser reemplazados o comprados.
 ---
 
 ## 2. Problema y usuarios
