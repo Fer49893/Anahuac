@@ -21,7 +21,6 @@ Un sistema para ayudar al hotel Agua Santa a llevar un mejor control de los prod
 
 ## 2. Problema y usuarios
 
-*Instrucción: qué problema resuelve, a quién le sirve y, muy importante, qué hace esa gente hoy para arreglárselas sin el sistema. Esa última parte es la que revela el problema real.*
 
 **El problema:** 
 El hotel tiene dificultades para llevar un control preciso de los productos y artículos que tiene disponibles, los que se encuentran en cada habitación y los que necesitan ser repuestos. Esto puede provocar pérdidas, compras innecesarias, falta de productos y problemas de comunicación entre los empleados. 
