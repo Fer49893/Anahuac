@@ -41,6 +41,12 @@ El dueño del hotel necesita conocer con precisión cuántos blancos hay disponi
 
 ---
 
+## Huecos señalados
+
+Mencionar a quien va dirigido específicamente el proyecto
+Mencionar quienes usarían el sistema dentro del hotel
+
+
 ## 3. Alcance
 
 *Instrucción: lo que escribes en "fuera del alcance" es lo que después evita que el proyecto crezca sin control. Sé específico: "reportes" no dice nada, "reportes de ventas mensuales exportables a PDF" sí.*
