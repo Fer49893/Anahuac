@@ -49,52 +49,37 @@ Mencionar quienes usarían el sistema dentro del hotel
 
 ## 3. Alcance
 
-*Instrucción: lo que escribes en "fuera del alcance" es lo que después evita que el proyecto crezca sin control. Sé específico: "reportes" no dice nada, "reportes de ventas mensuales exportables a PDF" sí.*
-
 ### Dentro del alcance
-
--
--
--
--
+El sistema incluirá el control de las 12 habitaciones del hotel, el inventario de productos de los minibares y de blancos como sábanas, toallas, cobijas y almohadas. Permitirá registrar los productos colocados en las habitaciones, los consumos realizados, las reposiciones, las entradas y salidas del inventario y el estado de los artículos. También permitirá consultar qué productos se encuentran disponibles, cuáles necesitan reposición y qué artículos se encuentran en cada habitación. El sistema contará con usuarios para recepción, personal de limpieza y dueño del hotel, además de un historial de los movimientos realizados.
 
 ### Explícitamente fuera del alcance
-
--
--
--
+El sistema no incluirá reservaciones de habitaciones, cobro del hospedaje, control de nómina, facturación electrónica, ni realización de pedidos o pagos a proveedores. Tampoco tendrá una aplicación destinada a los huéspedes. 
 
 **Por qué queda fuera:**
 
-*Instrucción: para al menos una de las exclusiones, explica la razón. Puede ser tiempo, complejidad, o que no aporta al problema central.*
-
----
+Estas funciones quedan fuera porque no forman parte del problema principal que se busca resolver y agregar algunas de ellas aumentaría considerablemente el tamaño y complejidad del proyecto para el tiempo disponible durante el semestre.
 
 ## 4. Tipo de sistema y restricciones
 
-*Instrucción: identifica de qué tipo es tu sistema y qué te obliga a garantizar ese tipo. Un sistema de información y un sistema crítico no se diseñan igual.*
-
 **Tipo de sistema:**
-
-*(De información · Embebido · Crítico · Web y SaaS · De datos y análisis)*
+Sistema de información
 
 **Por qué es de ese tipo:**
-
+El Hotel Innventario es un sistema de información porque permite registrar, consultar, actualizar y compartir información relacionada con los productos y artículos del hotel. Su función principal es ayudar al personal de recepción, al personal de limpieza y al dueño del hotel a conocer el estado de los productos en las habitaciones y del inventario general, para facilitar las tareas de registro, reposición y toma de decisiones.
 **Atributos de calidad que impone:**
-
 | Atributo | Por qué importa en mi caso | Qué pasa si no se cumple |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| **Exactitud** | La información del inventario debe coincidir con los productos que realmente se encuentran en las habitaciones y en el almacén. | Se pueden cobrar consumos incorrectamente, comprar productos innecesarios o quedarse sin productos importantes. |
+| **Disponibilidad** | El personal de recepción y limpieza necesita consultar y registrar información cuando está realizando sus actividades en las habitaciones. | El personal tendría que volver a utilizar registros en papel o esperar para poder actualizar la información. |
+| **Seguridad** | No todos los usuarios necesitan modificar la misma información. Por ejemplo, el dueño puede consultar el inventario general, mientras que recepción y limpieza realizan registros relacionados con sus actividades. | Un usuario podría modificar información que no le corresponde y provocar errores o pérdida de información. |
 
 **Reglas de negocio que ya identifiqué:**
 
-*Instrucción: reglas que no son obvias desde fuera y que alguien que conoce el dominio tendría que explicarte. Si no encuentras ninguna, tu caso puede ser demasiado simple.*
-
-1.
-2.
-3.
+1. Cada habitación debe tener una cantidad establecida de artículos de blancos y productos de minibar.
+2. El personal de limpieza debe registrar lo que encuentra físicamente en la habitación después de revisarla.
+3.Los productos consumidos del minibar deben poder identificarse para que recepción pueda cobrarlos al huésped durante el check-out.
+4. Cuando un producto del minibar es consumido, debe considerarse para reposición.
+5. Los artículos de blancos pueden encontrarse en diferentes situaciones.
 
 ---
 
