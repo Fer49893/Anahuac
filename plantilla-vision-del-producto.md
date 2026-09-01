@@ -41,10 +41,7 @@ El dueño del hotel necesita conocer con precisión cuántos blancos hay disponi
 
 ---
 
-## Huecos señalados
 
-Mencionar a quien va dirigido específicamente el proyecto
-Mencionar quienes usarían el sistema dentro del hotel
 
 
 ## 3. Alcance
@@ -75,33 +72,29 @@ El Hotel Innventario es un sistema de información porque permite registrar, con
 
 **Reglas de negocio que ya identifiqué:**
 
-1. Cada habitación debe tener una cantidad establecida de artículos de blancos y productos de minibar.
-2. El personal de limpieza debe registrar lo que encuentra físicamente en la habitación después de revisarla.
-3.Los productos consumidos del minibar deben poder identificarse para que recepción pueda cobrarlos al huésped durante el check-out.
-4. Cuando un producto del minibar es consumido, debe considerarse para reposición.
-5. Los artículos de blancos pueden encontrarse en diferentes situaciones.
+1. Control de merma y baja definitiva de blancos: Ningún artículo de blancos puede eliminarse del inventario global sin haber pasado previamente por el estado "En lavandería" o "Dañado", y la baja por merma o extravío únicamente puede ser autorizada por el perfil del Dueño.
+2. Auditoría automática de cargos al Check-Out: Todo producto de minibar registrado como faltante durante la inspección de salida genera de forma automática una alerta de cargo en la cuenta del huésped en recepción antes de permitir el cierre del check-out.
+3. Bloqueo de asignación por dotación incompleta: Una habitación no puede marcarse en estado "Disponible / Lista para entrega" si su inventario físico validado por el personal de limpieza no cubre el 100% de la dotación estándar asignada de blancos (por ejemplo: 2 almohadas, 1 juego de sábanas y 2 toallas).
 
 ---
 
 ## 5. Ciclo de vida elegido
 
-*Instrucción: este apartado se trabaja en la semana 3, después de ver los modelos de desarrollo. La justificación pesa más que la elección: no hay un modelo correcto, hay uno defendible para tu caso.*
-
-**Modelo elegido:**
+**Modelo elegido: Ágil**
 
 **Por qué le conviene a este proyecto:**
 
-*Instrucción: argumenta con las características reales de tu caso. Estabilidad de los requisitos, disponibilidad del cliente, nivel de riesgo, tamaño del equipo, frecuencia de entregas esperada.*
+El modelo ágil le conviene a Hotel Innventario porque, aunque el problema que se busca resolver está definido, algunos requisitos pueden cambiar o surgir nuevos conforme se conozcan mejor las necesidades del personal de recepción, limpieza y del dueño del hotel. El cliente y los usuarios pueden proporcionar retroalimentación durante el desarrollo, lo que permite realizar ajustes conforme avance el proyecto. El nivel de riesgo técnico es bajo, ya que se trata de un sistema de información para un hotel pequeño de 12 habitaciones.
 
 ### Alternativas descartadas
 
-**Alternativa 1:**
+**Alternativa 1: Cascada**
 
-*Por qué la descarté:*
+Se descartó el modelo en cascada porque requiere definir y establecer los requisitos con mayor precisión desde el inicio del proyecto. En Hotel Innventario algunos requisitos pueden cambiar conforme se reciba retroalimentación de los usuarios y se conozca mejor el funcionamiento del hotel. Esto haría más difícil realizar cambios en etapas posteriores del desarrollo.
 
-**Alternativa 2:**
+**Alternativa 2: Espiral**
 
-*Por qué la descarté:*
+Se descartó el modelo espiral porque está orientado principalmente a proyectos grandes o con un nivel de riesgo técnico elevado, donde es necesario analizar y reducir riesgos de manera constante. Hotel Innventario es un sistema de información para un hotel pequeño de 12 habitaciones y no presenta riesgos técnicos o de seguridad que justifiquen la complejidad de este modelo.
 
 ---
 
