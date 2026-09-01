@@ -97,5 +97,3 @@ Se descartó el modelo en cascada porque requiere definir y establecer los requi
 Se descartó el modelo espiral porque está orientado principalmente a proyectos grandes o con un nivel de riesgo técnico elevado, donde es necesario analizar y reducir riesgos de manera constante. Hotel Innventario es un sistema de información para un hotel pequeño de 12 habitaciones y no presenta riesgos técnicos o de seguridad que justifiquen la complejidad de este modelo.
 
 ---
-
-## Antes de entregar
