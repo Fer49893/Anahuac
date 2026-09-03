@@ -15,7 +15,7 @@
 **Nombre del sistema:** Hotel Innventario
 
 **Descripción:**
-Un sistema para ayudar a un hotel pequeño llevar un mejor control de los productos y artículos que tiene disponibles. Permite saber qué bebidas y alimentos hay en los minibares de cada habitación, así como controlar otros artículos utilizados en el hotel, como toallas, cobijas, sábanas y almohadas. El sistema permite registrar cuándo un artículo es utilizado, retirado o repuesto, para conocer en todo momento qué hay disponible, qué se encuentra en cada habitación y qué artículos necesitan ser reemplazados o comprados.
+Un sistema para ayudar a un hotel pequeño de 12 habitaciones llevar un mejor control de los productos y artículos que tiene disponibles. Permite saber qué bebidas y alimentos hay en los minibares de cada habitación, así como controlar otros artículos utilizados en el hotel, como toallas, cobijas, sábanas y almohadas. El sistema permite registrar cuándo un artículo es utilizado, retirado o repuesto, para conocer en todo momento qué hay disponible, qué se encuentra en cada habitación y qué artículos necesitan ser reemplazados o comprados.
 
 ---
 
@@ -80,17 +80,16 @@ El Hotel Innventario es un sistema de información porque permite registrar, con
 
 ## 5. Ciclo de vida elegido
 
-**Modelo elegido: Ágil**
+**Modelo elegido: Cascada**
 
 **Por qué le conviene a este proyecto:**
 
-El modelo ágil le conviene a Hotel Innventario porque, aunque el problema que se busca resolver está definido, algunos requisitos pueden cambiar o surgir nuevos conforme se conozcan mejor las necesidades del personal de recepción, limpieza y del dueño del hotel. El cliente y los usuarios pueden proporcionar retroalimentación durante el desarrollo, lo que permite realizar ajustes conforme avance el proyecto. El nivel de riesgo técnico es bajo, ya que se trata de un sistema de información para un hotel pequeño de 12 habitaciones.
-
+El modelo en cascada le conviene a Hotel Innventario porque los requisitos y el alcance del sistema son estables, conocidos y cerrados desde el inicio del proyecto (gestión de 12 habitaciones, control de blancos y minibar, y tres roles operativos definidos). Al no existir incertidumbre en las necesidades del hotel ni exigencias de cambio continuo sobre las funciones acordadas, un enfoque secuencial permite planificar con claridad las fases de análisis, diseño, implementación y pruebas dentro de los plazos fijos del semestre académico.
 ### Alternativas descartadas
 
-**Alternativa 1: Cascada**
+**Alternativa 1: Ágil**
 
-Se descartó el modelo en cascada porque requiere definir y establecer los requisitos con mayor precisión desde el inicio del proyecto. En Hotel Innventario algunos requisitos pueden cambiar conforme se reciba retroalimentación de los usuarios y se conozca mejor el funcionamiento del hotel. Esto haría más difícil realizar cambios en etapas posteriores del desarrollo.
+Se descartó el modelo ágil porque este enfoque sirve cuando los requisitos cambian con frecuencia y el cliente debe revisar avances todo el tiempo para definir qué sigue. En Hotel Innventario lo que se necesita ya está claro y cerrado desde el inicio (12 habitaciones y sus artículos), por lo que hacer reuniones continuas para replantear el trabajo solo quitaría tiempo sin aportar valor real al desarrollo.
 
 **Alternativa 2: Espiral**
 
