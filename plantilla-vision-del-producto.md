@@ -15,7 +15,7 @@
 **Nombre del sistema:** Hotel Innventario
 
 **Descripción:**
-Un sistema para ayudar a un hotel llevar un mejor control de los productos y artículos que tiene disponibles. Permite saber qué bebidas y alimentos hay en los minibares de cada habitación, así como controlar otros artículos utilizados en el hotel, como toallas, cobijas, sábanas y almohadas. El sistema permite registrar cuándo un artículo es utilizado, retirado o repuesto, para conocer en todo momento qué hay disponible, qué se encuentra en cada habitación y qué artículos necesitan ser reemplazados o comprados.
+Un sistema para ayudar a un hotel pequeño llevar un mejor control de los productos y artículos que tiene disponibles. Permite saber qué bebidas y alimentos hay en los minibares de cada habitación, así como controlar otros artículos utilizados en el hotel, como toallas, cobijas, sábanas y almohadas. El sistema permite registrar cuándo un artículo es utilizado, retirado o repuesto, para conocer en todo momento qué hay disponible, qué se encuentra en cada habitación y qué artículos necesitan ser reemplazados o comprados.
 
 ---
 
