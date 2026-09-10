@@ -47,12 +47,17 @@ El dueño del hotel necesita conocer con precisión cuántos blancos hay disponi
 ## 3. Alcance
 
 ### Dentro del alcance
-El sistema incluirá el control de las 12 habitaciones del hotel, el inventario de productos de los minibares y de blancos como sábanas, toallas, cobijas y almohadas. Permitirá registrar los productos colocados en las habitaciones, los consumos realizados, las reposiciones, las entradas y salidas del inventario y el estado de los artículos. También permitirá consultar qué productos se encuentran disponibles, cuáles necesitan reposición y qué artículos se encuentran en cada habitación. El sistema contará con usuarios para recepción, personal de limpieza y dueño del hotel, además de un historial de los movimientos realizados.
+* **Control de habitaciones e inventario:** Gestión del inventario de las 12 habitaciones del hotel, abarcando productos de minibares (alimentos y bebidas) y blancos (sábanas, toallas, cobijas y almohadas).
+* **Registro de movimientos y estados:** Registro de productos colocados en habitaciones, consumos realizados, reposiciones, entradas y salidas de inventario, así como el seguimiento del estado de cada artículo.
+* **Consultas e historial:** Consulta de productos disponibles, identificación de elementos que requieren reposición y visualización del detalle de artículos por habitación, junto con un historial de todos los movimientos realizados.
+* **Gestión de usuarios:** Soporte de acceso y perfiles para el personal de recepción, personal de limpieza y dueño del hotel.
 
 ### Explícitamente fuera del alcance
-El sistema no incluirá reservaciones de habitaciones, cobro del hospedaje, control de nómina, facturación electrónica, ni realización de pedidos o pagos a proveedores. Tampoco tendrá una aplicación destinada a los huéspedes. 
-
-**Por qué queda fuera:**
+* **Gestión de reservaciones y hospedaje:** No incluirá control de reservas de habitaciones ni cobro del hospedaje.
+* **Administración y finanzas del hotel:** No abarcará control de nómina, facturación electrónica, ni la realización de pedidos o pagos a proveedores.
+* **Aplicaciones para huéspedes:** No contará con una aplicación o interfaz destinada al uso de los huéspedes.
+  
+**¿Por qué queda fuera?:**
 
 Estas funciones quedan fuera porque no forman parte del problema principal que se busca resolver y agregar algunas de ellas aumentaría considerablemente el tamaño y complejidad del proyecto para el tiempo disponible durante el semestre.
 
@@ -63,12 +68,15 @@ Sistema de información
 
 **Por qué es de ese tipo:**
 El Hotel Innventario es un sistema de información porque permite registrar, consultar, actualizar y compartir información relacionada con los productos y artículos del hotel. Su función principal es ayudar al personal de recepción, al personal de limpieza y al dueño del hotel a conocer el estado de los productos en las habitaciones y del inventario general, para facilitar las tareas de registro, reposición y toma de decisiones.
+
 **Atributos de calidad que impone:**
+
 | Atributo | Por qué importa en mi caso | Qué pasa si no se cumple |
 |---|---|---|
 | **Exactitud** | La información del inventario debe coincidir con los productos que realmente se encuentran en las habitaciones y en el almacén. | Se pueden cobrar consumos incorrectamente, comprar productos innecesarios o quedarse sin productos importantes. |
 | **Disponibilidad** | El personal de recepción y limpieza necesita consultar y registrar información cuando está realizando sus actividades en las habitaciones. | El personal tendría que volver a utilizar registros en papel o esperar para poder actualizar la información. |
 | **Seguridad** | No todos los usuarios necesitan modificar la misma información. Por ejemplo, el dueño puede consultar el inventario general, mientras que recepción y limpieza realizan registros relacionados con sus actividades. | Un usuario podría modificar información que no le corresponde y provocar errores o pérdida de información. |
+| **Usabilidad** | La interfaz debe ser intuitiva y fácil de usar para los tres tipos de usuarios (recepción, limpieza y dueño), adaptándose al contexto de sus actividades diarias sin requerir capacitación técnica previa. | Si la interfaz es confusa o lenta, el personal de limpieza y recepción preferirá seguir utilizando las hojas de papel, provocando retrasos y omisión de datos en el sistema. |
 
 **Reglas de negocio que ya identifiqué:**
 
