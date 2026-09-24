@@ -1,2 +1,2 @@
-# Anahuac
-Trabajos hechos en la uni
+# Ingeniería de Software 
+Proyecto de Hotel Innventario
