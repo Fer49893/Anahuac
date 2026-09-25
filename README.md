@@ -1,2 +1,6 @@
-# Ingeniería de Software 
-Proyecto de Hotel Innventario
+# Ingeniería de software intersemestral
+Proyecto: Hotel Innventario
+
+Autor: Jose Fernando Saucedo Balderas
+ 
+Universidad Anáhuac Querétaro
